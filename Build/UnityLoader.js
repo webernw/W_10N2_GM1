@@ -2038,7 +2038,7 @@ var UnityLoader = UnityLoader || {
             hasWasm: "object" == typeof WebAssembly && "function" == typeof WebAssembly.validate && "function" == typeof WebAssembly.compile
         }
     }(),
-   compatibilityCheck: function(e, t, r) { t(); },
+    compatibilityCheck: function(e, t, r) { t(); },
     Blobs: {},
     loadCode: function(e, t, r) {
         var n = [].slice.call(UnityLoader.Cryptography.md5(e)).map(function(e) {
